@@ -72,8 +72,8 @@ const HeroSection = () => {
             style={{ animationDelay: "0.4s" }}
           >
             {[
-              { number: "5+", label: "Events" },
-              { number: "2+", label: "Years" },
+              { number: "50+", label: "Events" },
+              { number: "8+", label: "Years" },
               { number: "100%", label: "Happy Clients" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">

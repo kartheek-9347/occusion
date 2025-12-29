@@ -8,7 +8,7 @@ const features = [
   },
   {
     icon: Award,
-    title: "2+ Years Experience",
+    title: "8+ Years Experience",
     description: "A decade of excellence in creating memorable celebrations.",
   },
   {
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
             </p>
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <div className="text-4xl font-heading font-bold text-gold">5+</div>
+                <div className="text-4xl font-heading font-bold text-gold">50+</div>
                 <div className="text-sm text-background/60">Events Completed</div>
               </div>
               <div className="w-px h-12 bg-background/20" />
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
               </div>
               <div className="w-px h-12 bg-background/20" />
               <div className="text-center">
-                <div className="text-4xl font-heading font-bold text-gold">50+</div>
+                <div className="text-4xl font-heading font-bold text-gold">30+</div>
                 <div className="text-sm text-background/60">Team Members</div>
               </div>
             </div>

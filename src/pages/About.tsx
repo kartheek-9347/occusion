@@ -17,7 +17,7 @@ const About = () => {
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
-              Crafting <span className="text-gold">Unforgettable</span> Moments Since 2020
+              Crafting <span className="text-gold">Unforgettable</span> Moments Since 2018
             </h1>
             <p className="text-lg text-muted-foreground">
               We are a passionate team of event planners dedicated to turning your dreams into reality.
@@ -36,7 +36,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2020, Celebrations Events began with a simple vision – to transform 
+                  Founded in 2018, Celebrations Events began with a simple vision – to transform 
                   ordinary gatherings into extraordinary experiences. What started as a small team 
                   of passionate event enthusiasts has grown into a full-service event management 
                   company trusted by hundreds of families and businesses.
