@@ -19,13 +19,13 @@ const Footer = () => {
               <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
+              <a href="https://www.instagram.com/nameevibeevents?igsh=ZjFkMjY3aDF4OG9r" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
+              <a href="https://www.youtube.com/@nameevibeevents" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
+              <a href="https://x.com/Nameevibes" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-gold transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
@@ -86,14 +86,14 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-background/70 text-sm">
-                 Modern Mansion Appartments, Temple Alwal, 500010, secunderabad. 
+                 Modern Mansion Appartments, Temple Alwal, 500010, Secunderabad. 
 
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-gold flex-shrink-0" />
                 <a href="tel:+1234567890" className="text-background/70 hover:text-gold transition-colors text-sm">
-                 +91 7036019546
+                 +91 7659851659
                 </a>
               </li>
               <li className="flex items-center gap-3">

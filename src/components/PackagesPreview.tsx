@@ -34,7 +34,7 @@ const packages = [
   },
   {
     name: "Royal",
-    price: "₹3,00,000+",
+    price: "₹3,00,000",
     description: "Ultimate luxury for grand celebrations",
     features: [
       "Everything in Premium",

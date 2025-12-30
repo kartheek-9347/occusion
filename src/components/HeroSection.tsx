@@ -1,16 +1,39 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Play, Sparkles } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+
+// Import your 3 images here
+import heroBg1 from "@/assets/hero-bg.jpg"; 
+import heroBg2 from "@/assets/hero-bg-2.png"; // Update paths as needed
+import heroBg3 from "@/assets/hero-bg-3.png"; // Update paths as needed
 
 const HeroSection = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = [heroBg1, heroBg2, heroBg3];
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000); // Changes image every 5 seconds
+
+    return () => clearInterval(timer);
+  }, [images.length]);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+      {/* Background Image Carousel */}
+      {images.map((image, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out ${
+            index === currentImageIndex ? "opacity-100" : "opacity-0"
+          }`}
+          style={{ backgroundImage: `url(${image})` }}
+        />
+      ))}
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-overlay" />
@@ -23,10 +46,10 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full border border-primary-foreground/20 animate-fade-up">
-            <Sparkles className="w-4 h-4 text-gold" />
-            <span className="text-primary-foreground text-sm font-medium">A-to-Z Event Management</span>
-          </div>
+          <div className="inline-flex items-center gap-2 px-4 py-2 ">
+            {/* <Sparkles className="w-4 h-4 text-gold" />
+            <span className="text-primary-foreground text-sm font-medium">A-to-Z Event Management</span> */}
+           </div> 
 
           {/* Heading */}
           <h1 
@@ -72,7 +95,7 @@ const HeroSection = () => {
             style={{ animationDelay: "0.4s" }}
           >
             {[
-              { number: "50+", label: "Events" },
+              { number: "250+", label: "Events" },
               { number: "8+", label: "Years" },
               { number: "100%", label: "Happy Clients" },
             ].map((stat) => (

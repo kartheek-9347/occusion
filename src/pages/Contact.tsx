@@ -245,9 +245,9 @@ const Contact = () => {
                         Nameevibes@gmail.com
                       </a>
                       <br />
-                      <a href="mailto:bookings@celebrationsevents.com" className="text-muted-foreground hover:text-gold transition-colors">
+                      {/* <a href="mailto:bookings@celebrationsevents.com" className="text-muted-foreground hover:text-gold transition-colors">
                         bookings@celebrationsevents.com
-                      </a>
+                      </a> */}
                     </div>
                   </div>
 
@@ -292,7 +292,7 @@ const Contact = () => {
                 </p>
                 <Button variant="whatsapp" size="lg" asChild>
                   <a 
-                    href="https://wa.me/1234567890?text=Hello!%20I'm%20interested%20in%20your%20event%20management%20services." 
+                    href="https://wa.me/7659851659?text=Hello!%20I'm%20interested%20in%20your%20event%20management%20services." 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
@@ -303,7 +303,7 @@ const Contact = () => {
               </div>
 
               {/* Map */}
-              <div className="rounded-2xl overflow-hidden h-64">
+              {/* <div className="rounded-2xl overflow-hidden h-64">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5965652815!2d77.5945627!3d12.9715987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE3LjgiTiA3N8KwMzUnNDAuNCJF!5e0!3m2!1sen!2sin!4v1234567890"
                   width="100%"
@@ -314,7 +314,7 @@ const Contact = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Office Location"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
